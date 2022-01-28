@@ -1,20 +1,32 @@
 <template>
   <div class="card display-flex">
-    <img src="../../assets/img/buy-comics-digital-comics.png" />
-    <p>Digital Comics</p>
+    <div class="image">
+      <img :src="card.image" />
+    </div>
+    <p>{{ card.text }}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: "Card",
+  props: {
+    card: Object,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .card {
-  img {
+  .image {
     width: 50px;
+    height: 50px;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
   }
 
   p {

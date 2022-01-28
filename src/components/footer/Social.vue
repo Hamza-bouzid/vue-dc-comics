@@ -1,6 +1,6 @@
 <template>
   <div class="social">
-    <div class="container">
+    <div class="hb-container">
       <div class="cta">
         <a href="#">Sign-up now!</a>
       </div>
@@ -26,7 +26,7 @@ export default {
 <style lang="scss" scoped>
 @import "../../assets/style/partials/variables.scss";
 
-.container {
+.hb-container {
   display: flex;
   justify-content: space-between;
   align-items: center;

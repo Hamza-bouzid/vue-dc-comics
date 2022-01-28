@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container">
+    <div class="hb-container">
       <h2> -- Content goes here -- </h2>
     </div>
   </main>

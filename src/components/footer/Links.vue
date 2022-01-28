@@ -1,6 +1,6 @@
 <template>
   <div class="links">
-    <div class="container">
+    <div class="hb-container">
       <div class="links-footer">
         <div class="col">
           <div>
@@ -69,7 +69,7 @@ export default {
 
 <style lang="scss" scoped>
 
-.container {
+.hb-container{
   display: flex;
   justify-content: space-between;
   height: 300px;

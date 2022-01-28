@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container display-flex">
+    <div class="hb-container display-flex">
       <div class="logo">
         <a href="#"><img src="../assets/img/dc-logo.png" /></a>
       </div>
@@ -79,7 +79,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/style/partials/variables.scss";
 
-.container {
+.hb-container {
   padding: 20px 0px;
   justify-content: space-between;
 }
