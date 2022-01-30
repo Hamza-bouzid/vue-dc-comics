@@ -7,7 +7,7 @@
       <nav>
         <ul>
           <li v-for="(link, index) in links" :key="index">
-            <a :class="{active: link.current}" :href="link.url">{{ link.text }}</a>
+            <a :class="{ active: link.current }" :href="link.url">{{ link.text }}</a>
           </li>
         </ul>
       </nav>
@@ -80,10 +80,9 @@ export default {
 @import "../assets/style/partials/variables.scss";
 
 .hb-container {
-  padding: 20px 0px;
+  padding: 10px 0px;
   justify-content: space-between;
 }
-
 
 .logo img {
   width: 80px;

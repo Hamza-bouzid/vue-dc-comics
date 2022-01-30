@@ -1,22 +1,24 @@
 <template>
   <main>
-    <div class="hb-container">
-      <h2> -- Content goes here -- </h2>
-    </div>
+    <Jumbo />
+    <Comics />
   </main>
 </template>
 <script>
+
+import Jumbo from "./main/Jumbo.vue";
+import Comics from "./main/Comics.vue";
+
 export default {
   name: "Main",
+  components: {
+    Jumbo,
+    Comics
+    
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-
-main {
-  background-color: #000;
-  color: #fff;
-  padding: 50px 0px;
-}
 
 </style>
